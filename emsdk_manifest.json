@@ -626,23 +626,23 @@
   },
   {
     "id": "python",
-    "version": "3.5.4",
+    "version": "3.7.4",
     "bitness": 32,
     "arch": "x86",
-    "windows_url": "WinPython-32bit-3.5.4.1Zero.zip",
-    "activated_path": "%installation_dir%/python-3.5.4",
-    "activated_cfg": "PYTHON='%installation_dir%/python-3.5.4/python%.exe%'",
-    "activated_env": "EMSDK_PYTHON=%installation_dir%/python-3.5.4/python%.exe%"
+    "windows_url": "python-3.7.4-embed-win32.zip",
+    "activated_path": "%installation_dir%/python-3.7.4",
+    "activated_cfg": "PYTHON='%installation_dir%/python-3.7.4-embed-win32/python%.exe%'",
+    "activated_env": "EMSDK_PYTHON=%installation_dir%/python-3.7.4-embed-win32/python%.exe%"
   },
   {
     "id": "python",
-    "version": "3.5.4",
+    "version": "3.7.4",
     "bitness": 64,
     "arch": "x86_64",
-    "windows_url": "WinPython-64bit-3.5.4.1Zero.zip",
-    "activated_path": "%installation_dir%/python-3.5.4.amd64",
-    "activated_cfg": "PYTHON='%installation_dir%/python-3.5.4.amd64/python%.exe%'",
-    "activated_env": "EMSDK_PYTHON=%installation_dir%/python-3.5.4.amd64/python%.exe%"
+    "windows_url": "python-3.7.4-embed-amd64.zip",
+    "activated_path": "%installation_dir%/python-3.7.4.amd64",
+    "activated_cfg": "PYTHON='%installation_dir%/python-3.7.4-embed-amd64/python%.exe%'",
+    "activated_env": "EMSDK_PYTHON=%installation_dir%/python-3.7.4-embed-amd64/python%.exe%"
   },
   {
     "id": "java",
@@ -1186,13 +1186,13 @@
   {
     "version": "incoming",
     "bitness": 32,
-    "uses": ["clang-incoming-32bit", "node-12.9.1-32bit", "python-2.7.13.1-32bit", "java-8.152-32bit", "emscripten-incoming-32bit", "binaryen-master-32bit"],
+    "uses": ["clang-incoming-32bit", "node-12.9.1-32bit", "python-3.7.4-32bit", "java-8.152-32bit", "emscripten-incoming-32bit", "binaryen-master-32bit"],
     "os": "win"
   },
   {
     "version": "incoming",
     "bitness": 64,
-    "uses": ["clang-incoming-64bit", "node-12.9.1-64bit", "python-2.7.13.1-64bit", "java-8.152-64bit", "emscripten-incoming-64bit", "binaryen-master-64bit"],
+    "uses": ["clang-incoming-64bit", "node-12.9.1-64bit", "python-3.7.4-64bit", "java-8.152-64bit", "emscripten-incoming-64bit", "binaryen-master-64bit"],
     "os": "win"
   },
   {
@@ -1216,13 +1216,13 @@
   {
     "version": "master",
     "bitness": 32,
-    "uses": ["clang-master-32bit", "node-12.9.1-32bit", "python-2.7.13.1-32bit", "java-8.152-32bit", "emscripten-master-32bit", "binaryen-master-32bit"],
+    "uses": ["clang-master-32bit", "node-12.9.1-32bit", "python-3.7.4-32bit", "java-8.152-32bit", "emscripten-master-32bit", "binaryen-master-32bit"],
     "os": "win"
   },
   {
     "version": "master",
     "bitness": 64,
-    "uses": ["clang-master-64bit", "node-12.9.1-64bit", "python-2.7.13.1-64bit", "java-8.152-64bit", "emscripten-master-64bit", "binaryen-master-64bit"],
+    "uses": ["clang-master-64bit", "node-12.9.1-64bit", "python-3.7.4-64bit", "java-8.152-64bit", "emscripten-master-64bit", "binaryen-master-64bit"],
     "os": "win"
   },
   {
@@ -1697,7 +1697,7 @@
   {
     "version": "releases-fastcomp-%releases-tag%",
     "bitness": 64,
-    "uses": ["releases-fastcomp-%releases-tag%-64bit", "node-12.9.1-64bit", "python-2.7.13.1-64bit", "java-8.152-64bit"],
+    "uses": ["releases-fastcomp-%releases-tag%-64bit", "node-12.9.1-64bit", "python-3.7.4-64bit", "java-8.152-64bit"],
     "os": "win"
   },
   {
